@@ -1,0 +1,15 @@
+.venv/
+bruin/.git
+bruin/bruin-chess/chess.db
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite
+*.db
+*.log
+*.env
+.env
+.idea/
+.vscode-test/

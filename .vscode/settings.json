@@ -1,0 +1,9 @@
+{
+  "sqltools.connections": [
+    {
+      "name": "ChessDB",
+      "driver": "DuckDB",
+      "database": "${workspaceFolder}/bruin/bruin-chess/chess.db"
+    }
+  ]
+}

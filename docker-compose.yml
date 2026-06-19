@@ -1,0 +1,7 @@
+services:
+  bruin:
+    build: .
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    command: bash

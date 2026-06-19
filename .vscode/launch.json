@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run DuckDB query helper",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/bruin/bruin-chess/query_duckdb.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run DuckDB GUI",
+      "type": "python",
+      "request": "launch",
+      "module": "streamlit",
+      "args": [
+        "run",
+        "${workspaceFolder}/bruin/bruin-chess/duckdb_gui.py",
+        "--server.port=8501",
+        "--server.headless=true"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}
