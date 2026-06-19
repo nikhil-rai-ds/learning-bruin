@@ -16,6 +16,12 @@ Project space for learning Bruin and keeping notes, examples, exercises, and out
 - `references/` - useful links, snippets, and source material.
 - `outputs/` - generated results, screenshots, reports, or exports.
 
+## Current Focus
+
+- `bruin/` - nested Bruin example project used for hands-on practice.
+- `bruin/bruin-chess/` - chess data pipeline that loads data into DuckDB.
+- `notes/project-map.md` - quick orientation for the files and commands used most often.
+
 ## Next Steps
 
 1. Identify the Bruin docs, tutorial, or course to follow.
