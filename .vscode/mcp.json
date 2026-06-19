@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "bruin": {
+      "type": "stdio",
+      "command": "node",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "${workspaceFolder}/scripts/bruin-mcp-stdio.mjs"
+      ]
+    }
+  }
+}

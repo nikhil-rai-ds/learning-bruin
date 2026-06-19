@@ -13,3 +13,6 @@ __pycache__/
 .env
 .idea/
 .vscode-test/
+
+# Local Bruin connection config
+.bruin.yml

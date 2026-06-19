@@ -22,6 +22,14 @@ Project space for learning Bruin and keeping notes, examples, exercises, and out
 - `bruin/bruin-chess/` - chess data pipeline that loads data into DuckDB.
 - `notes/project-map.md` - quick orientation for the files and commands used most often.
 
+## Bruin MCP
+
+This project configures the Bruin MCP server for Codex and VS Code:
+
+- `.codex/config.toml` registers the `bruin` MCP server for Codex.
+- `.vscode/mcp.json` registers the same server for VS Code MCP clients.
+- `scripts/bruin-mcp-stdio.mjs` adapts Bruin CLI v0.11.635 MCP newline JSON to standard MCP stdio framing.
+
 ## Next Steps
 
 1. Identify the Bruin docs, tutorial, or course to follow.
